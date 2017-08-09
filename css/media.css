@@ -1,0 +1,186 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	html {
+		font-size: 9px;
+	}
+	h1 {
+		font-size: 6.5rem;
+	}
+	.desc {
+		font-size: 1.6rem;
+	}
+	.desc br, .create_text p br, .step p br, .disney p br {
+		display: none;
+	}
+	.create_text_wrapper button {
+		bottom: -30px;
+	}
+	.top_phone {
+		font-size: 2rem;
+	}
+	.create .row img {
+		max-width: 520px;
+	}
+	.bottom_form img {
+		display: none;
+	}
+	.step img {
+		width: 100%;
+		max-width: 346px;
+	}
+	.contact img {
+		width: 100%;
+		max-width: 840px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	html {
+		font-size: 8px;
+	}
+	section {
+		padding: 60px 0;
+	}
+	h1 {
+		font-size: 6rem;
+	}
+	.desc {
+		padding-left: 30px;
+	}
+	.lang {
+		top: 8px;
+	}
+	.s_form {
+		text-align: center;
+	}
+	.s_form img {
+		display: none;
+	}
+	.s_form h3 {
+		text-align: center;
+	}
+	#timer16f5765c176e45a3e6ea1b22bcee5469, #timer16f5765c176e45a3e6ea1b22bcee54690 {
+		margin: 3rem auto!important;
+	}
+	section h3 br {
+		display: none;
+	}
+	.create .row img {
+		display: none;
+	}
+	.create .row.right_pict .create_text_wrapper {
+		background-image: none;
+		background-color: #1e5e72;
+	}
+	.create .row.left_pict .create_text_wrapper {
+		background-image: none;
+		background-color: #f5b120;
+	}
+	.create_text_wrapper button {
+		position: static;
+	}
+	.create_text_wrapper {
+		padding: 3rem;
+	}
+	.create_text_wrapper p {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+	}
+	.create {
+		text-align: center;
+	}
+	.create_text {
+		display: block;
+	}
+	.review {
+		display: none;
+	}
+	section {
+		padding: 30px 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	html {
+		font-size: 7.5px;
+	}
+	header {
+		background-position: left -100px;
+		text-align: center;
+		padding-bottom: 30px;
+		height: auto;
+	}
+	.logo img {
+		min-width: 100px;
+	}
+	h1 br {
+		display: none;
+	}
+	.trigger {
+		text-align: left;
+	}
+	.disney .row {
+		display: block;
+		text-align: center;
+	}
+	#timer6bbf00fe03504b6a0b3cf753959967a3, #timer6bbf00fe03504b6a0b3cf753959967a30 {
+		margin: 3rem auto!important;
+	}
+	.contact {
+		text-align: center;
+	}
+	.contact h3 {
+		text-align: center;
+	}
+	.made_by, footer {
+		text-align: center;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (max-width : 380px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
